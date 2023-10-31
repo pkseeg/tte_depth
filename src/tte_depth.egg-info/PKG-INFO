@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: tte-depth
+Version: 0.0.5
+Summary: A package for implementing transformer-based text embedding depth
+Author-email: pkseeg <parker@pkseeg.com>
+Project-URL: Homepage, https://github.com/pkseeg/tte_depth
+Project-URL: Bug Tracker, https://github.com/pkseeg/tte_depth/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TTE Depth
+
+This package is an implementation of transformer-based text embedding depth, first described in "Statistical Depth for Ranking and Characterizing Transformer-Based Text Embeddings" (Seegmiller & Preum, EMNLP 2023).
+
+## Installation
+
+`tte_depth` is available on pypi and can be installed using `pip`.
+
+```
+pip install tte_depth
+```
+
+Alternatively, the repository can be cloned via github.
+
+```
+git clone FIXME
+```
+
+## Use
+
+There are two main use cases of `tte_depth`, both designed to be used in conjunction with a FIXME The first is in selecting representative texts from a corpus
+
+
