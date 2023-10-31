@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tte_depth"
-version = "0.0.5"
+version = "1.0.0"
 authors = [
   { name="pkseeg", email="parker@pkseeg.com" },
 ]
