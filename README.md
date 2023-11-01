@@ -6,13 +6,13 @@ This package is an implementation of transformer-based text embedding depth, fir
 
 `tte_depth` is available on pypi and can be installed using `pip`.
 
-```
+```bash
 pip install tte_depth
 ```
 
 Alternatively, the repository can be cloned via github.
 
-```
+```bash
 git clone https://github.com/pkseeg/tte_depth.git
 ```
 
@@ -22,7 +22,7 @@ There are two main use cases of `tte_depth`, both designed to be used in conjunc
 
 First, be sure to install `sentence-transformers` and `tte-depth`.
 
-```
+```bash
 pip install -U sentence-transformers tte-depth
 ```
 
@@ -30,7 +30,7 @@ pip install -U sentence-transformers tte-depth
 `tte_depth` allows you to assign a value to each text in a corpus, indicating how _representative_ each text is of the corpus as a whole. Larger depth values indicate higher representativeness, and lower depth values indicate that the text is a semantic or linguistic outlier.
 Next, create a text embedding model using `sentence_transformers`.
 
-```
+```python
 from sentence_transformers import SentenceTransformer
 from tte_depth import StatDepth
 
@@ -56,7 +56,7 @@ for t, s in zip(texts, depth_scores):
 `tte_depth` also allows you to measure how far apart two corpora are in embedding space, and to use a Wilcoxon Rank Sum Test to determine whether it is likely that the text embeddings of these two corpora are drawn from the same distribution. In this example, we define two lists of sentences (`F` and `G`) meant to represent different corpora.
 
 
-```
+```python
 from sentence_transformers import SentenceTransformer
 from tte_depth import StatDepth
 
@@ -91,7 +91,7 @@ print(f"Q = {Q:.2f}, W = {Q:.2f}, p = {p:.4f}")
 ```
 
 If you find this repository helpful, feel free to cite our publication "Statistical Depth for Ranking and Characterizing Transformer-Based Text Embeddings":
-```
+```bibtex
 @inproceedings{seegmiller-2023-tte-depth,
   title = "Statistical Depth for Ranking and Characterizing Transformer-Based Text Embeddings",
   author = "Seegmiller, Parker and Preum, Sarah",
