@@ -28,7 +28,6 @@ pip install -U sentence-transformers tte-depth
 
 ### Single Corpus Depth
 `tte_depth` allows you to assign a value to each text in a corpus, indicating how _representative_ each text is of the corpus as a whole. Larger depth values indicate higher representativeness, and lower depth values indicate that the text is a semantic or linguistic outlier.
-Next, create a text embedding model using `sentence_transformers`.
 
 ```python
 from sentence_transformers import SentenceTransformer
