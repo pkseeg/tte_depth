@@ -93,7 +93,7 @@ print(f"Q = {Q:.2f}, W = {Q:.2f}, p = {p:.4f}")
 If you find this repository helpful, feel free to cite our publication "Statistical Depth for Ranking and Characterizing Transformer-Based Text Embeddings":
 ```
 @inproceedings{seegmiller-2023-tte-depth,
-  title = "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+  title = "Statistical Depth for Ranking and Characterizing Transformer-Based Text Embeddings",
   author = "Seegmiller, Parker and Preum, Sarah",
   booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
   month = "12",
