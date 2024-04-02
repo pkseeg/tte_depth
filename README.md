@@ -86,7 +86,7 @@ G = model.encode(other_texts)
 d = StatDepth()
 depth_scores_F, depth_scores_G, Q, W, p = d.depth_rank_test(F, G)
 
-print(f"Q = {Q:.2f}, W = {Q:.2f}, p = {p:.4f}")
+print(f"Q = {Q:.2f}, W = {W:.2f}, p = {p:.4f}")
 ```
 
 If you find this repository helpful, feel free to cite our publication "Statistical Depth for Ranking and Characterizing Transformer-Based Text Embeddings":
