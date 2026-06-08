@@ -115,8 +115,7 @@ G = model.encode([...])   # query corpus
 d = StatDepth()
 depth_F, depth_G, Q, W, p = d.depth_rank_test(F, G)
 
-print(f"Q = {Q:.4f}  (< 0.5 → G is more outlying than F)")
-print(f"p = {p:.4f}  (< 0.05 → statistically significant shift)")
+print(f"Q = {Q:.2f}, W = {W:.2f}, p = {p:.4f}")
 ```
 
 ### Distance functions
